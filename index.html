@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Commercial Kitchen Design | Kitchen Design &amp; Equipment Suppliers</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#fbf7f1;--surface:#fff;--soft:#f3ebdf;--text:#2a2622;--muted:#6f665d;--accent:#d9480f;--accent2:#fff;--line:#e8dfd2;--deep:#2a2622;--deeptext:#fbf7f1;color-scheme:light;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171513;--surface:#211e1b;--soft:#1d1a17;--text:#f4efe8;--muted:#a79d92;--accent:#ff7a3d;--accent2:#1c0f07;--line:#332e29;--deep:#0f0d0c;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171513;--surface:#211e1b;--soft:#1d1a17;--text:#f4efe8;--muted:#a79d92;--accent:#ff7a3d;--accent2:#1c0f07;--line:#332e29;--deep:#0f0d0c;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,"Segoe UI",system-ui,Arial,sans-serif;line-height:1.65}
+h1,h2,h3{font-family:Fraunces,Georgia,"Times New Roman",serif;line-height:1.15;margin:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0;gap:12px;flex-wrap:wrap}
+.logo{font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.15rem}
+.logo i{color:var(--accent);font-style:normal}
+nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:.93rem;font-weight:500}
+nav a:hover{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:var(--accent2);padding:14px 26px;border-radius:999px;text-decoration:none;font-weight:600;transition:transform .2s}
+.btn .wa{vertical-align:-4px;margin-right:8px}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--text);border:1.5px solid var(--line);margin-left:8px}
+.hero{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;padding:48px 0 72px}
+.tag{display:inline-block;background:var(--soft);color:var(--accent);font-weight:600;font-size:.82rem;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+.hero h1{font-size:clamp(2.2rem,5.5vw,3.7rem);margin-bottom:18px}
+.hero h1 em{color:var(--accent);font-style:italic}
+.hero p{color:var(--muted);font-size:1.12rem;max-width:520px;margin:0 0 28px}
+.art{background:var(--soft);border-radius:28px;padding:20px;border:1px solid var(--line)}
+.art svg{width:100%;height:auto;display:block}
+.strip{background:var(--deep);color:var(--deeptext);padding:26px 0}
+.strip .wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;text-align:center}
+.strip b{display:block;font-family:Fraunces,Georgia,serif;font-size:1.1rem}
+.strip span{font-size:.88rem;opacity:.75}
+section{padding:72px 0}
+.kick{color:var(--accent);font-weight:600;font-size:.85rem;letter-spacing:.08em;text-transform:uppercase;margin-bottom:10px}
+h2{font-size:clamp(1.7rem,3.5vw,2.4rem);margin-bottom:12px}
+.sub{color:var(--muted);max-width:600px;margin:0 0 34px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px;transition:transform .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(0,0,0,.08)}
+.ico{width:46px;height:46px;border-radius:14px;background:var(--soft);display:grid;place-items:center;font-size:1.4rem;margin-bottom:14px}
+.card h3{font-size:1.15rem;margin-bottom:6px}
+.card p{margin:0;color:var(--muted);font-size:.95rem}
+.soft{background:var(--soft)}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{background:var(--surface);border:1px solid var(--line);padding:10px 18px;border-radius:999px;font-weight:500;font-size:.93rem}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.step{position:relative;padding:26px;border-radius:20px;background:var(--surface);border:1px solid var(--line)}
+.step:before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--accent);color:var(--accent2);font-weight:700;margin-bottom:12px}
+.step h3{font-size:1.1rem;margin-bottom:4px}
+.step p{margin:0;color:var(--muted);font-size:.94rem}
+.cta{background:var(--deep);color:var(--deeptext);border-radius:32px;padding:56px 32px;text-align:center}
+.cta p{opacity:.8;max-width:520px;margin:0 auto 26px}
+.cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cta .btn.ghost{color:var(--deeptext);border-color:#6b625a;margin:0}
+.contact{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:16px;margin-top:36px}
+.contact div{padding:18px 4px;border-top:2px solid var(--line);min-width:0;overflow-wrap:anywhere}
+.contact small{display:block;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+.contact a{color:var(--accent);font-weight:600;text-decoration:none}
+.show{position:relative;border-radius:24px;overflow:hidden;background:var(--soft);border:1px solid var(--line);aspect-ratio:16/9;touch-action:pan-y}
+.slide{position:absolute;inset:0;margin:0;display:grid;place-items:center;opacity:0;visibility:hidden;transition:opacity .8s,visibility .8s}
+.slide.on{opacity:1;visibility:visible}
+.slide:before{content:"📷";font-size:3rem;opacity:.35}
+.slide img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.slide figcaption{position:absolute;left:0;right:0;bottom:0;padding:60px 24px 26px;color:#fff;font-family:Fraunces,Georgia,serif;font-size:clamp(1.05rem,2.4vw,1.5rem);font-weight:600;background:linear-gradient(transparent,rgba(0,0,0,.75))}
+.slide figcaption small{display:block;font-family:Inter,system-ui,sans-serif;font-size:.88rem;font-weight:400;opacity:.85;margin-top:2px}
+.sbtn{position:absolute;top:50%;transform:translateY(-50%);width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:1.3rem;cursor:pointer;z-index:2}
+.sbtn:hover{background:var(--accent)}
+.sbtn.prev{left:14px}.sbtn.next{right:14px}
+.dots{position:absolute;top:14px;right:16px;display:flex;gap:6px;z-index:2}
+.dots i{width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.5);cursor:pointer}
+.dots i.on{background:#fff;width:22px;border-radius:6px}
+@media(max-width:600px){.show{aspect-ratio:4/3}.sbtn{width:38px;height:38px}}
+@media(prefers-reduced-motion:reduce){.slide{transition:none}}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+.shot{position:relative;margin:0;aspect-ratio:4/3;border-radius:20px;overflow:hidden;background:var(--soft);border:1px solid var(--line);display:grid;place-items:center}
+.shot:before{content:"📷";font-size:2rem;opacity:.35}
+.shot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .4s}
+.shot:hover img{transform:scale(1.05)}
+.shot figcaption{position:absolute;left:0;right:0;bottom:0;padding:34px 16px 14px;color:#fff;font-weight:500;font-size:.92rem;background:linear-gradient(transparent,rgba(0,0,0,.7));pointer-events:none}
+.shot figcaption small{display:block;opacity:.8;font-weight:400}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.88rem}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:24px}.art{order:-1}nav{display:none}}
+.art{position:relative}
+.art .heroimg{position:absolute;inset:20px;width:calc(100% - 40px);height:calc(100% - 40px);object-fit:cover;border-radius:18px;z-index:1}
+.shot-link{display:block;color:inherit;text-decoration:none;cursor:pointer}
+.shot-link:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:20px}
+.eqshots{margin-bottom:28px}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="nav">
+<div class="logo">Commercial Kitchen <i>Design</i></div>
+<nav><a href="#services">Services</a><a href="#equipment">Equipment</a><a href="#work">Our Work</a><a href="#process">How we work</a><a href="#contact">Contact</a></nav>
+</div></div>
+
+<div class="wrap" style="padding-top:0">
+<div class="show" id="show" aria-roledescription="carousel" aria-label="Our recent projects">
+<figure class="slide"><img src="project-1.jpg" alt="Full kitchen setup" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Full kitchen setup<small>Diwulgaha Lodge, Anuradhapura</small></figcaption></figure>
+<figure class="slide"><img src="project-2.jpg" alt="Exhaust hood, griddle & gas burners" loading="lazy" style="object-position:center 68%" onerror="this.remove()"><figcaption>Exhaust hood, griddle & gas burners<small>Thuduwa Camp, Udawalawa</small></figcaption></figure>
+<figure class="slide"><img src="project-3.jpg" alt="Prep table with overhead shelf" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Prep table with overhead shelf<small>Trio Lodge, Habarana</small></figcaption></figure>
+<figure class="slide"><img src="project-4.jpg" alt="Double-bowl sink & work table" loading="lazy" style="object-position:center 58%" onerror="this.remove()"><figcaption>Double-bowl sink & work table<small>Seoul K Food, Chilaw</small></figcaption></figure>
+<figure class="slide"><img src="project-5.jpg" alt="Exhaust fan & gas manifold" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Exhaust fan & gas manifold<small>Ananda Ayurveda Resort, Kosgoda</small></figcaption></figure>
+<figure class="slide"><img src="project-6.jpg" alt="Stainless steel tables & sinks" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Stainless steel tables & sinks<small>Grand Minaro, Welipillawa</small></figcaption></figure>
+<button class="sbtn prev" aria-label="Previous">&#10094;</button><button class="sbtn next" aria-label="Next">&#10095;</button><div class="dots"></div>
+</div>
+</div>
+
+<div class="wrap hero">
+<div>
+<span class="tag">Design · Supply · Install</span>
+<h1>Kitchens built around <em>the way you cook.</em></h1>
+<p>We’re a team of kitchen planners and equipment specialists. We listen to your menu, your space and your budget, then build a kitchen your chefs will love working in.</p>
+<a class="btn" href="#contact">Book a free consultation</a><a class="btn ghost" href="#services">See what we do</a>
+</div>
+<div class="art">
+<img class="heroimg" src="Logo.webp" alt="Commercial kitchen built by our team" style="object-position:center 55%" onerror="this.remove()">
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+<rect x="20" y="40" width="360" height="12" rx="6" fill="#d9480f" opacity=".9"/>
+<g fill="#b9aea0"><rect x="50" y="52" width="3" height="40"/><rect x="200" y="52" width="3" height="40"/><rect x="340" y="52" width="3" height="40"/></g>
+<rect x="36" y="92" width="90" height="26" rx="6" fill="#8c8174"/><rect x="156" y="92" width="90" height="26" rx="6" fill="#8c8174"/><rect x="276" y="92" width="90" height="26" rx="6" fill="#8c8174"/>
+<rect x="20" y="170" width="360" height="110" rx="14" fill="#cfc4b6"/>
+<rect x="20" y="170" width="360" height="22" rx="10" fill="#e9e1d6"/>
+<g fill="#6f665d"><circle cx="75" cy="232" r="22"/><circle cx="150" cy="232" r="22"/><rect x="215" y="206" width="140" height="56" rx="10"/></g>
+<g fill="#e9e1d6"><circle cx="75" cy="232" r="12"/><circle cx="150" cy="232" r="12"/><rect x="228" y="218" width="114" height="32" rx="6"/></g>
+<g fill="#d9480f"><circle cx="75" cy="232" r="4"/><circle cx="150" cy="232" r="4"/></g>
+<path d="M60 160c0-14 10-14 10-28M90 160c0-14 10-14 10-28M160 160c0-14 10-14 10-28" stroke="#d9480f" stroke-width="4" fill="none" stroke-linecap="round" opacity=".6"/>
+<rect x="20" y="290" width="360" height="8" rx="4" fill="#b9aea0"/>
+</svg>
+</div>
+</div>
+
+<div class="strip"><div class="wrap">
+<div><b>Free site visit</b><span>We come to you</span></div>
+<div><b>One team</b><span>From sketch to handover</span></div>
+<div><b>Honest advice</b><span>Right equipment, right budget</span></div>
+<div><b>Always reachable</b><span>After-sales support</span></div>
+</div></div>
+
+<section id="services"><div class="wrap">
+<div class="kick">What we do</div>
+<h2>Everything your kitchen needs, under one roof</h2>
+<p class="sub">No chasing five different suppliers. We take care of the whole project so you can focus on your food and your customers.</p>
+<div class="grid">
+<div class="card"><div class="ico">📐</div><h3>Kitchen design &amp; layout</h3><p>Smart plans that keep your staff moving smoothly, save space and meet hygiene and safety standards.</p></div>
+<div class="card"><div class="ico">🔥</div><h3>Equipment supply</h3><p>Reliable commercial equipment for every budget, chosen with you, not pushed on you.</p></div>
+<div class="card"><div class="ico">🔧</div><h3>Installation</h3><p>Careful fitting of equipment, ventilation and utilities, tested properly before we hand over.</p></div>
+<div class="card"><div class="ico">🤝</div><h3>Service &amp; support</h3><p>Repairs, spare parts and friendly help when you need it, long after opening day.</p></div>
+</div></div></section>
+
+<section id="equipment" class="soft"><div class="wrap">
+<div class="kick">Equipment</div>
+<h2>What we supply</h2>
+<p class="sub">From a small café to a hotel kitchen, here’s some of what we can set you up with.</p>
+<div class="shots eqshots">
+<figure class="shot"><img src="project-2.jpg" alt="Exhaust hoods &amp; ducting" loading="lazy" style="object-position:center 68%" onerror="this.remove()"><figcaption>Exhaust hoods &amp; ducting</figcaption></figure>
+<figure class="shot"><img src="project-3.jpg" alt="Stainless steel tables" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Stainless steel tables &amp; shelves</figcaption></figure>
+<figure class="shot"><img src="project-4.jpg" alt="Stainless steel sinks" loading="lazy" style="object-position:center 58%" onerror="this.remove()"><figcaption>Sinks &amp; work tables</figcaption></figure>
+<figure class="shot"><img src="project-5.jpg" alt="Exhaust fans &amp; gas manifold" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Exhaust fans &amp; gas lines</figcaption></figure>
+</div>
+<div class="chips">
+<span class="chip">Gas ranges &amp; ovens</span><span class="chip">Fryers &amp; griddles</span><span class="chip">Chillers &amp; freezers</span><span class="chip">Cold rooms</span><span class="chip">Stainless steel tables &amp; sinks</span><span class="chip">Exhaust hoods &amp; ducting</span><span class="chip">Dishwashers</span><span class="chip">Mixers &amp; slicers</span><span class="chip">Bakery equipment</span><span class="chip">Buffet &amp; display units</span><span class="chip">Custom fabrication</span>
+</div></div></section>
+
+<section id="work"><div class="wrap">
+<div class="kick">Our Work</div>
+<h2>Kitchens we've built</h2>
+<p class="sub">A look at some of our recent projects. Tap any photo to see more on our Facebook page.</p>
+<!-- ඡායාරූප වෙනස් කිරීමට: img src එකේ ෆයිල් නම ඔබේ ෆොටෝ එකේ නමට මාරු කරන්න. figcaption එකේ නම සහ ස්ථානයත් වෙනස් කරන්න. -->
+<div class="shots">
+<a class="shot-link" href="https://www.facebook.com/share/p/1DZSExgpqv/" target="_blank" rel="noopener" aria-label="Open our Facebook page"><figure class="shot"><img src="project-1.jpg" alt="Anuradhapura" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Diwulgaha Lodge<small>Anuradhapura</small></figcaption></figure></a>
+<a class="shot-link" href="https://www.facebook.com/share/p/19yRXX9PkX/" target="_blank" rel="noopener" aria-label="Open our Facebook page"><figure class="shot"><img src="project-2.jpg" alt="Thuduwa Camp" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Thuduwa Camp<small>Udawalawa</small></figcaption></figure></a>
+<a class="shot-link" href="https://www.facebook.com/share/p/1cQSkqKtrR/" target="_blank" rel="noopener" aria-label="Open our Facebook page"><figure class="shot"><img src="project-3.jpg" alt="Trio Lodge" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Trio Lodge<small>Habarana</small></figcaption></figure></a>
+<a class="shot-link" href="https://www.facebook.com/share/p/1JeQjd2Aey/" target="_blank" rel="noopener" aria-label="Open our Facebook page"><figure class="shot"><img src="project-4.jpg" alt="Seoul K Food" loading="lazy" style="object-position:center 58%" onerror="this.remove()"><figcaption>Seoul K Food<small>Chilaw</small></figcaption></figure></a>
+<a class="shot-link" href="https://www.facebook.com/share/p/1KpwRWYMTy/" target="_blank" rel="noopener" aria-label="Open our Facebook page"><figure class="shot"><img src="project-5.jpg" alt="Ananda Ayurveda Resort" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Ananda Ayurveda Resort<small>Kosgoda</small></figcaption></figure></a>
+<a class="shot-link" href="https://www.facebook.com/share/p/1JAy9J5zFU/" target="_blank" rel="noopener" aria-label="Open our Facebook page"><figure class="shot"><img src="project-6.jpg" alt="Grand Minaro" loading="lazy" style="object-position:center 55%" onerror="this.remove()"><figcaption>Grand Minaro<small>Welipillawa</small></figcaption></figure></a>
+</div>
+</div></section>
+
+<section id="process"><div class="wrap">
+<div class="kick">How we work</div>
+<h2>Simple, clear and stress-free</h2>
+<p class="sub">You’ll always know what’s happening and what comes next.</p>
+<div class="steps">
+<div class="step"><h3>We talk</h3><p>Tell us about your menu, space and budget over a call or a visit.</p></div>
+<div class="step"><h3>We design</h3><p>You get a layout and equipment list you can review and change.</p></div>
+<div class="step"><h3>We build</h3><p>We deliver, install and test everything on schedule.</p></div>
+<div class="step"><h3>We stay</h3><p>Training, warranty and support whenever you need us.</p></div>
+</div></div></section>
+
+<section id="contact" style="padding-top:0"><div class="wrap">
+<div class="cta">
+<h2>Planning a new kitchen?</h2>
+<p>Tell us your idea. Even a rough one is fine. We’ll help you shape it and give you a free quote.</p>
+<div class="row"><a class="btn" href="https://wa.me/94720928487" target="_blank" rel="noopener"><svg class="wa" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.7-1.4-1.6-1.6-1.9-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.300.5 1.700.6.7.2 1.400.2 1.900.1.600-.1 1.700-.7 2-1.400.2-.7.2-1.300.2-1.400-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.600 15.100L2 22l5-1.300A10 10 0 1 0 12 2zm0 18.200c-1.500 0-3-.4-4.200-1.200l-.3-.2-3 .8.8-2.900-.2-.3A8.200 8.200 0 1 1 12 20.200z"/></svg>Chat on WhatsApp</a><a class="btn ghost" href="https://mail.google.com/mail/?view=cm&fs=1&to=commercialkitchendesign.info@gmail.com&su=Kitchen%20project%20enquiry" target="_blank" rel="noopener">Send an email</a></div>
+</div>
+<div class="contact">
+<div><small>Phone / WhatsApp</small><a href="tel:+94720928487">+94 72 092 8487</a></div>
+<div><small>Email</small><a href="mailto:commercialkitchendesign.info@gmail.com">commercialkitchendesign.info@gmail.com</a></div>
+<div><small>Address</small>51, Yowungama, Watareka, Meegoda</div>
+<div><small>Facebook</small><a href="https://www.facebook.com/profile.php?id=100093051399219" target="_blank" rel="noopener">Follow our page</a></div>
+</div>
+</div></section>
+
+<footer><div class="wrap">&copy; 2026 Commercial Kitchen Design. Kitchen design &amp; equipment suppliers.</div></footer>
+<script>
+(function(){
+var box=document.getElementById('show');if(!box)return;
+var slides=[].slice.call(box.querySelectorAll('.slide'));
+/* random order on every visit */
+for(var i=slides.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=slides[i];slides[i]=slides[j];slides[j]=t;}
+var anchor=box.querySelector('.sbtn.prev');
+slides.forEach(function(sl){box.insertBefore(sl,anchor);var im=sl.querySelector('img');if(im)im.addEventListener('error',function(){im.remove()});});
+var dots=box.querySelector('.dots'),cur=0,timer;
+slides.forEach(function(_,n){var d=document.createElement('i');d.addEventListener('click',function(){go(n);restart()});dots.appendChild(d)});
+function go(n){cur=(n+slides.length)%slides.length;slides.forEach(function(sl,k){sl.classList.toggle('on',k===cur)});[].forEach.call(dots.children,function(d,k){d.classList.toggle('on',k===cur)})}
+function restart(){clearInterval(timer);if(!matchMedia('(prefers-reduced-motion:reduce)').matches)timer=setInterval(function(){go(cur+1)},4500)}
+box.querySelector('.prev').addEventListener('click',function(){go(cur-1);restart()});
+box.querySelector('.next').addEventListener('click',function(){go(cur+1);restart()});
+box.addEventListener('mouseenter',function(){clearInterval(timer)});box.addEventListener('mouseleave',restart);
+var x0=null;box.addEventListener('touchstart',function(e){x0=e.touches[0].clientX},{passive:true});
+box.addEventListener('touchend',function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0;if(Math.abs(dx)>40){go(cur+(dx<0?1:-1));restart()}x0=null});
+go(0);restart();
+})();
+document.querySelectorAll('.shot img').forEach(function(i){i.addEventListener('error',function(){i.remove()})});
+</script>
+</body>
+</html>
